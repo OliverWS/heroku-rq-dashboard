@@ -30,7 +30,7 @@ app.config['REDIS_URL'] = config('REDIS_URL', 'localhost')
 app.config['RQ_DASHBOARD_USERNAME'] = config('RQ_DASHBOARD_USERNAME', '')
 app.config['RQ_DASHBOARD_PASSWORD'] = config('RQ_DASHBOARD_PASSWORD', '')
 
-#rq_dashboard.blueprint.before_request(basic_auth)
+rq_dashboard.blueprint.before_request(basic_auth)
 app.register_blueprint(rq_dashboard.blueprint, url_prefix="/rq")
 
 
