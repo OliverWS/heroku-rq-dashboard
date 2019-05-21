@@ -1,0 +1,6 @@
+{
+  "name": "Heroku RQ Dashboard",
+  "description": "Ready to deploy RQ Dashboard for Heroku",
+  "repository": "https://github.com/OliverWS/heroku-rq-dashboard",
+  "template":"https://github.com/OliverWS/heroku-rq-dashboard"
+}
