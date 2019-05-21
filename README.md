@@ -2,6 +2,9 @@
 
 A deploy-ready app using [Flask](http://flask.pocoo.org) + [rq_dashboard](https://github.com/eoranged/rq-dashboard) for monitoring RQ queues, jobs and workers.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 Uses [python-decouple](https://github.com/henriquebastos/python-decouple) for Heroku/Flynn env compatibility.
 
 ## How to use
